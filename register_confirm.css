@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    background-color: #f8f8f8;
+ }
+ 
+header{
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img{
+   margin-top: 15px;
+   height: 50px;
+   padding-left: 40px;
+}
+
+main{
+    width: 100%;
+}
+
+.confirm_box{
+    margin: 0 auto;
+    border: lightgray;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    padding-top: 10px;
+}
+
+.confirm_contents{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+} 
+
+h2{
+    text-align: center;
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+.confirm_contents p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.must{
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #31A263;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    width: 40px;
+    text-align: center;
+}
+
+.confirm_name{
+    text-align: left;
+    margin: 25px;
+}
+
+.confirm_mail{
+    text-align: left;
+    margin: 25px;
+}
+
+.confirm_password{
+    text-align: left;
+    margin: 25px;
+}
+
+.confirm_picture{
+    text-align: left;
+    margin: 25px;
+}
+
+.confirm_comments{
+    text-align: left;
+    margin: 25px;
+}
+
+.choose{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.confirm_button{
+    display: flex;
+    justify-content: center;
+}
+
+.touroku_ng{
+    border: 1px solid lightgray;
+    padding: 6px 30px 4px 30px;
+    color: white;
+    background-color: lightgray;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.touroku_ok{
+    border: 1px solid lightgray;
+    padding: 6px 30px 4px 30px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+}
